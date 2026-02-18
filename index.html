@@ -3,154 +3,36 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Michael Ramirez</title>
-    <meta name="description" content="Portfolio and resume for Michael Ramirez — mechanical engineer building practical tools and web apps." />
-    <meta property="og:title" content="Michael Ramirez — Engineer & Builder" />
-    <meta property="og:description" content="Projects, resume, and contact information for Michael Ramirez." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://michael-ramirez.com" />
+    <title>Portfolio</title>
     <link rel="icon" href="favicon.ico" />
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #0b0d12;
-        color: #e6e9ef;
-        margin: 0;
-        padding: 40px;
-        line-height: 1.6;
-      }
-
-      h1, h2 {
-        color: #2866f8;
-        margin-top: 60px;
-        margin-bottom: 20px;
-      }
-
-      h1 {
-        margin-top: 0;
-      }
-
-      p {
-        font-size: 18px;
-        max-width: 600px;
-        margin-bottom: 25px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 25px 0;
-      }
-
-      li {
-        margin-bottom: 25px;
-      }
-
-      a {
-        color: #8b5bff;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      nav {
-        background-color: #633152;
-        padding: 15px 0;
-        text-align: center;
-        margin-bottom: 50px;
-      }
-
-      nav a {
-        color: #e6e9ef;
-        margin: 0 15px;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 16px;
-      }
-
-      nav a:hover {
-        color: #5b8cff;
-      }
-
-      .section {
-        margin-bottom: 60px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>
-      <a href="#about">About</a> |
-      <a href="#projects">Projects</a> |
-      <a href="#resume">Resume</a> |
-      <a href="#contact">Contact</a>
-    </nav>
 
-    <h1>Hello, I’m Michael!</h1>
-    <p>This is my very second personal website.</p>
+    <header class="nav">
+      <div class="container nav-inner">
+        <nav class="nav-links">
+          <a href="#">Shop</a>
+          <a href="#">Categories</a>
+          <a href="#">About</a>
+          <a href="#">Cart</a>
+          <a href="#">Account</a>
+        </nav>
+      </div>
+    </header>
 
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>I'm Michael Ramirez — a mechanical engineer who loves building tools, coding small web apps, and learning new ways to connect the digital and physical world. I enjoy working on practical systems that make manufacturing smoother and smarter.</p>
-    </section>
+    <main>
+      <div class="container">
+        <h1>Title</h1>
+        <p>A paragraph</p>
+      </div>
+    </main>
 
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong>Project 1</strong> — placeholder project showcasing development and design capabilities. Detailed description coming soon.
-          <br>
-          <a href="#" target="_blank">Live</a> · <a href="#" target="_blank">Code</a>
-        </li>
-        <li>
-          <strong>Instruction Builder Web App</strong> — build job-specific assembly instructions from a master operations library.
-          <br>
-          <a href="#" target="_blank">Live</a> · <a href="#" target="_blank">Code</a>
-        </li>
-        <li>
-          <strong>AI Quote Web App</strong> — generate, analyze, and manage manufacturing quotes using intelligent automation (OpenAI API).
-          <br>
-          <a href="#" target="_blank">Post</a> · <a href="#" target="_blank">Code</a>
-        </li>
-        <li>
-          <strong>Gantt Chart MVP</strong> — visualize manufacturing orders with fixed task dependencies.
-          <br>
-          <a href="#" target="_blank">Live</a> · <a href="#" target="_blank">Code</a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="resume" class="section">
-      <h2>Resume</h2>
-      <p>
-        <a href="assets/Michael_Ramirez_Resume.pdf" download>Download Resume (PDF)</a>
-      </p>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>
-        The best way to reach me is email:
-        <a href="mailto:michael.r.ramz@gmail.com">michael.r.ramz@gmail.com</a>
-      </p>
-      <p>
-        You can also find me here:
-        <a href="#" target="_blank">GitHub</a> ·
-        <a href="#" target="_blank">LinkedIn</a>
-      </p>
-    </section>
-    
-    <footer style="margin-top: 60px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.12); color:#9aa3b2; font-size:14px;">
-      <p>© <span id="year"></span> Michael Ramirez • Built with HTML & CSS</p>
+    <footer class="nav-footer">
+      <div class="container">
+        <small>@ 2026</small>
+      </div>
     </footer>
-    <script>
-      // Set current year in footer
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
+
   </body>
 </html>
